@@ -12,9 +12,12 @@ const Grid = styled.div`
 
   ${p => !p.fluid && css`
     ${DIMENSION_NAMES.map(t =>
-    config(p).container[t] && config(p).media[t] && config(p).container[t] !== 'fluid'`
-        width: ${p => config(p).container[t]}rem;
-      `
+      config(p).container[t] && config(p).media[t] && config(p).container[t] !== 'fluid' ? `
+          width: ${p => config(p).container[t]}rem;
+         `
+      : `
+          width: 100%;
+        `
     )}
   `}
 `
