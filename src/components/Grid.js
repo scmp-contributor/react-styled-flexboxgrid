@@ -15,7 +15,7 @@ const Grid = styled.div`
     config(p).container[t] && config(p).media[t]`
         width: ${p => config(p).container[t]}rem;
       `
-  )}
+    )}
   `}
 `
 
