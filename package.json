@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LoicMahieu/react-styled-flexboxgrid.git"
+    "url": "git+https://github.com/scmp-contributor/react-styled-flexboxgrid"
   },
   "bugs": {
-    "url": "https://github.com/LoicMahieu/react-styled-flexboxgrid/issues"
+    "url": "https://github.com/scmp-contributor/react-styled-flexboxgrid/issues"
   },
-  "homepage": "https://github.com/LoicMahieu/react-styled-flexboxgrid",
+  "homepage": "https://github.com/scmp-contributor/react-styled-flexboxgrid",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
@@ -101,6 +101,7 @@
     "styled-components": ">= 2"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "lodash.isinteger": "^4.0.4"
   }
 }
